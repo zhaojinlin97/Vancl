@@ -1,0 +1,225 @@
+@import url(../lib/reset.css);
+/*html {*/
+  /*font-size: 62.5%;*/
+/*}*/
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.vancl_software{
+  width: 100%;
+  height: 4rem;
+  background: #4f4f4f;
+  display: flex;
+  flex-direction: row;
+  line-height: 4rem;
+
+}
+.vancl_software .vancl_s_cuo{
+  position: absolute;
+  left: .4rem;
+  top: .2rem;
+}
+.vancl_software .vancl_s_cuo img{
+  width: 1.6rem;
+  height: auto;
+}
+.vancl_software .vancl_s_left{
+  width: 6rem;
+  height: 4rem;
+  float: left;
+}
+.vancl_software .vancl_s_left img{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2.4rem;
+  box-sizing: border-box;
+}
+
+.vancl_software .vancl_s_center{
+  flex-grow: 1;
+  height: 4rem;
+  float: left;
+  color: #fff4e3;
+}
+.vancl_software .vancl_s_right{
+  width: 10rem;
+  float: right;
+  height: 4rem;
+color: #ffffff;
+}
+.vancl_software .vancl_s_right span{
+  width: 9rem;
+  height: 3rem;
+  background: #b81c22;
+  margin: 0.5rem 0.5rem;
+text-align: center;
+  line-height: 3rem;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.vancl_header {
+  width: 100%;
+  height: 4.5rem;
+  line-height: 2rem;
+  background: #b91c22;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+
+  z-index: 2;
+  /*设置主轴方向为水平方向*/
+}
+.vancl_header .vancl_input {
+  flex-grow: 1;
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  margin: 1rem 0 0 1.2rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  position: relative;
+  border-radius: 3px;
+}
+.vancl_header .vancl_input .sousuo {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+}
+.vancl_header .vancl_input input {
+  padding-left: 3.8rem;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border: none;
+  font-size: 1.4rem;
+  color: #c3c3c3;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.vancl_header .vancl_shuo {
+  padding: 1.2rem 1.2rem;
+  box-sizing: border-box;
+}
+.vancl_header .vancl_shuo img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.vancl_main {
+
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  Overflow-y:auto;
+padding-bottom: 4.5rem;
+}
+.vancl_main::-webkit-scrollbar{width:0;}
+.vancl_main .vancl_nav img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.vancl_main .vancl_laba img {
+  width: 100%;
+  height: auto;
+  background: #ffff00;
+}
+.vancl_main .vancl_chong img {
+  width: 100%;
+  height: auto;
+  background: #ffff00;
+}
+.vancl_main .vancl_xia{
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #646464;
+}
+.vancl_main .vancl_shan{
+  width: 100%;
+  height: auto;
+/*margin-bottom: 4rem;*/
+}
+.vancl_main .vancl_shan img{
+  width: 50%;
+  float: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+}
+.vancl_main .vancl_shan .vancl_img1{
+  padding-right: 1px;
+  box-sizing: border-box;
+  border-right: 1px solid #f2f2f2;
+}
+.vancl_main .vancl_shan .vancl_img2{
+  padding-left: 1px;
+  box-sizing: border-box;
+  border-left: 1px solid #f2f2f2;
+
+}
+
+.vancl_main .vancl_kong{
+  width: 100%;
+  height: 6rem;
+  /*background: red;*/
+}
+.vancl_footer {
+  z-index: 222;
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+  border-top: 2px solid #999999;
+  position: fixed;
+  /*left: 0;*/
+  bottom: 0;
+  overflow: hidden;
+}
+.vancl_footer a {
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.vancl_footer span {
+  display: inline-block;
+  width: 3rem;
+  height: 4rem;
+  overflow: hidden;
+  /*background-image: url("../../images/public_Sprite.png");*/
+  background-image: url("../../images/public_Sprite.png");
+  background-size: 100% ;
+}
+.vancl_nav-vancl {
+  background-position: 0 240px ;
+}
+.vancl_nav-kind {
+  background-position: 0 -46px;
+  /*background-position:0 -286px ;*/
+}
+.vancl_nav-made {
+  background-position: 0 -95px;
+  /*background-position:0 -335px ;*/
+}
+.vancl_nav-cart {
+  background-position: 0 -143px;
+  /*background-position:0 -383px ;*/
+}
+.vancl_nav-mine {
+  background-position: 0 -191px;
+  /*background-position:0 -431px ;*/
+}

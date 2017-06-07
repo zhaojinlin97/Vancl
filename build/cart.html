@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="flow.css">
+</head>
+<body >
+<!--头部-->
+<div class="cart_header">
+    <span class="cart_header_back" onclick="location.href='vancl.html'"></span>
+    <span class="cart_header_toptitle">购物车</span>
+</div>
+<!--主体部分-->
+<div class="cart_main">
+   <div class="cart_main_Goods_on_sale">
+    <div class="cart_main_Goods_on_sale-left">
+        <a href="javascript:;">在售商品：</a>
+    </div>
+    <div class="cart_main_Goods_on_sale-right">
+      <input type="button" name="" value="全不选" class="cart_checked_noall">
+      <input type="button" name="" value="全选"   class="cart_checked_all">
+      <input type="button" name="" value="删除"   class="cart_del">
+    </div>
+
+  </div>
+    <div class="cart_main_content">
+      <ul>
+        <li class="content-one">
+          <div class="defind-shop-left">
+            <input type="checkbox" value="" name="shop-tel">
+                <div class="photo-img">
+                    <img src="../src/images/cart-icoin-girl-pigshirt.jpg" alt="">
+                </div>
+          </div>
+          <div class="defind-shop-center">
+                <a href="javascript:;" class="shop-top-requ">
+                  凡客T桖 好小猪
+                </a>
+                <p class="shop-content">
+                <span class="shop-center-color">颜色: 蓝白条</span>
+                <span class="shop-center-size">尺码: M</span>
+                <span class="shop-content-jjcc">
+                    <strong class="shop-content-price price-one">￥298.00</strong>
+                    <a href="javascript:;" class="shop-center-jian jian-one">-</a>
+                    <a href="javascript:;" class="shop-center-num count-one">1</a>
+                    <a href="javascript:;" class="shop-center-jia jia-one">+</a>
+                    <i class="shop-center-del"><img src="../src/images/shop-center-del_03.png" alt=""></i>
+                </span>
+
+                </p>
+          </div>
+        </li>
+
+        <li class="content-two">
+          <div class="defind-shop-left">
+            <input type="checkbox" name="shop-tel" value="">
+
+                <div class="photo-img">
+                    <img src="../src/images/cart-icoin-girl-upsport.jpg" alt="">
+                </div>
+          </div>
+          <div class="defind-shop-center">
+                <a href="javascript:;" class="shop-top-requ">
+                  凡客T桖 好小猪
+                </a>
+                <p class="shop-content">
+                <span class="shop-center-color">颜色: 蓝白条</span>
+                <span class="shop-center-size">尺码: M</span>
+                <span class="shop-content-jjcc">
+                    <strong class="shop-content-price price-two">￥298.00</strong>
+                    <a href="javascript:;" class="shop-center-jian jian-two" >-</a>
+                    <a href="javascript:;" class="shop-center-num count-two">1</a>
+                    <a href="javascript:;" class="shop-center-jia jia-two">+</a>
+                    <i class="shop-center-del"><img src="../src/images/shop-center-del_03.png" alt=""></i>
+                </span>
+                </p>
+          </div>
+        </li>
+        <li class="content-san">
+          <div class="defind-shop-left">
+            <input type="checkbox" name="shop-tel" value="" >
+
+                <div class="photo-img">
+                    <img src="../src/images/cart-icoin-girl-upclothes.jpg" alt="">
+                </div>
+          </div>
+          <div class="defind-shop-center">
+                <a href="javascript:;" class="shop-top-requ">
+                  凡客T桖 好小猪
+                </a>
+                <p class="shop-content">
+                <span class="shop-center-color">颜色: 蓝白条</span>
+                <span class="shop-center-size">尺码: M</span>
+                <span class="shop-content-jjcc">
+                    <strong class="shop-content-price price-three">￥298.00</strong>
+                    <a href="javascript:;" class="shop-center-jian jian-san">-</a>
+                    <a href="javascript:;" class="shop-center-num count-san" >1</a>
+                    <a href="javascript:;" class="shop-center-jia jia-san">+</a>
+                    <i class="shop-center-del"><img src="../src/images/shop-center-del_03.png" alt=""></i>
+                </span>
+
+                </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+<!--底部-->
+<div class="cart_footer" style="" >
+<div class="cart_footer-left">
+    <p>需支付：<strong class="price-count">¥ 596.00</strong></p>
+    <p class="p2 count-arwing">总金额：¥596.00</p>
+</div>
+    <div class="cart_footer-right">
+      <input type="submit" name="" value="结算" class="cart_over">
+    </div>
+</div>
+<div class="del-box">
+    <div class="del-content">
+        <div class="del-title">你确定删除该商品吗？</div>
+        <div class="del-btn">
+            <a href="#" class="btn-no">取消</a>
+            <a href="#" class="btn-ok">确定</a>
+        </div>
+
+    </div>
+</div>
+<script src="flow.js"></script>
+</body>
+</html>
